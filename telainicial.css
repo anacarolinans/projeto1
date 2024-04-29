@@ -1,0 +1,91 @@
+
+    h1 {
+    color: #528657;
+    font-size: 1cm;
+    font-family: 'Merriweather';
+    margin-top: 5;
+    text-align: left;
+    }
+    h2 {
+    color: #528657;
+    font-size: 0.5cm;
+    font-family: 'Merriweather';
+    margin-top: 5;
+    text-align: left;
+    }
+    .menu_1{
+        background-color:  #E4DEDC;
+        padding: 10px;
+    }
+    .menu_2{
+        background-color:  #528657;
+        padding: 155px;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather';
+    }
+    #profile-icon {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  #528657;
+    text-decoration: none;
+    font-size: 14px;
+    }
+    #profile-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+    .square {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: #E4DEDC;
+        border-radius: 15px;
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .square img {
+        width: 100%; /* A largura da imagem é 100% do tamanho do quadrado */
+        height: 100%; /* Ajusta a altura da imagem automaticamente */
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço disponível sem distorção */
+    }
+    
+    .square .btn-wrapper {
+        position: absolute; /* Posiciona o contêiner do botão de forma absoluta */
+        bottom: 10px; /* Distância do contêiner do botão ao fundo do quadrado */
+        left: 0; /* Alinha o contêiner do botão com a esquerda do quadrado */
+        right: 0; /* Alinha o contêiner do botão com a direita do quadrado */
+    }
+    
+    .square button {
+        width: 100%; /* Largura total do botão */
+        font-family: 'Merriweather';
+        padding: 10px 20px; /* Adiciona um espaçamento interno ao botão */
+        font-size: 18px; /* Define o tamanho da fonte do botão */
+        font-weight: bold;
+        background-color: #E4DEDC; /* Cor de fundo do botão */
+        color: #528657 ; /* Cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        border-radius: 25px; /* Adiciona uma borda arredondada ao botão */
+        cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    }
+    
+    
